@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/* .banner {
+  display: flex;
+  align-self: flex-start;
+  max-width: 32%;
+  width: auto;
+  height: auto;
+} */
+
+.banner {
+  width: 40%;
+  height: 100%;
+}
+div.background {
+  background-image: url(imgs/jonny-gios-9BhnGcgREG0-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+div.credit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  opacity: 40%;
+}
+
+.logo-holder {
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "League Gothic", sans-serif;
+  font-size: 56px;
+  color: white;
+}
+
+.logo {
+  max-width: 190px;
+  max-height: 251px;
+  width: auto;
+  height: auto;
+  padding-right: 50px;
+}
