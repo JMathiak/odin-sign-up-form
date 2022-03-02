@@ -14,6 +14,7 @@ body {
 .banner {
   width: 40%;
   height: 100%;
+  float: left;
 }
 div.background {
   background-image: url(imgs/jonny-gios-9BhnGcgREG0-unsplash.jpg);
@@ -55,4 +56,89 @@ div.credit {
   width: auto;
   height: auto;
   padding-right: 50px;
+}
+
+.right-side {
+  float: right;
+  width: 60%;
+  height: 937px;
+  background-color: white;
+}
+
+input,
+label {
+  display: block;
+}
+
+.table-holder {
+  background: rgba(52, 63, 98);
+  width: 100%;
+  font-family: "League Gothic", sans-serif;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+
+td {
+  padding: 8px;
+  padding-right: 50px;
+}
+
+table {
+  margin-left: 100px;
+}
+
+th {
+  display: flex;
+  justify-content: left;
+}
+
+.disclaimer {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.disclaimer-text {
+  padding-left: 50px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  font-family: "League Gothic", sans-serif;
+  font-size: 36px;
+  padding-right: 250px;
+}
+
+input {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+button {
+  background-color: #343f62;
+  border: none;
+  color: white;
+  padding: 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  font-family: "League Gothic", sans-serif;
+}
+
+.create-account {
+  margin-left: 110px;
+  margin-top: 25px;
+}
+
+.already-user {
+  margin-left: 110px;
+  font-family: "League Gothic", sans-serif;
+  font-size: 30px;
+  margin-top: 25px;
+  letter-spacing: 1.5px;
 }
