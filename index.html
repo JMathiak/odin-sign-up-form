@@ -28,6 +28,7 @@
         </p>
        </div>
     <div class="table-holder">
+    <form id="info">
     <table class="ta">
         <tr>
             <th>Let's Do This!</th>
@@ -49,7 +50,7 @@
             </td>
             <td>
                 <label for="pnumber">PHONE NUMBER </label>
-                <input type="tel" id="pnumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                <input type="tel" id="pnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             </td>
         </tr>
         <tr>
@@ -63,12 +64,13 @@
             </td>
         </tr>
     </table>
+</form>
 </div>
 <div class="create-account">
-    <button type="submit">Create Account</button>
+    <button type="submit" form ='info'>Create Account</button>
 </div>
 <div class="already-user">
-    Already a user? Log In Here
+    Already a user? <a> Log In Here</a>
 </div>
 </div>
 </html>

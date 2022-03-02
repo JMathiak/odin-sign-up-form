@@ -46,7 +46,7 @@ div.credit {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-family: "League Gothic", sans-serif;
-  font-size: 56px;
+  font-size: 108px;
   color: white;
 }
 
@@ -120,14 +120,15 @@ button {
   background-color: #343f62;
   border: none;
   color: white;
-  padding: 26px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 25px;
-  margin: 4px 2px;
   border-radius: 5px;
   font-family: "League Gothic", sans-serif;
+  cursor: pointer;
+  letter-spacing: 1.5px;
 }
 
 .create-account {
@@ -141,4 +142,17 @@ button {
   font-size: 30px;
   margin-top: 25px;
   letter-spacing: 1.5px;
+}
+th {
+  letter-spacing: 3px;
+}
+a {
+  cursor: pointer;
+  color: blue;
+}
+
+input:focus {
+  border: solid 3px #403373;
+  border-radius: 10px;
+  outline: none;
 }
